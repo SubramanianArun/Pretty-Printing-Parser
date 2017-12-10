@@ -1,0 +1,192 @@
+set machineStatus(general) {
+	-modelerType kapaa
+	-controllerVersion 3978
+	-compatibleCMBVersion 9.1
+	-modelerStatus {Idle}
+	-modelerExplanation {}
+	-currentModelingLayer 459
+	-modCount 69
+	-partCurrentTemp 99
+	-supportCurrentTemp 99
+	-envelopeCurrentTemp 71
+	-partSetTemp 100
+	-supportSetTemp 100
+	-envelopeSetTemp 72
+	-partTip T14
+	-supportTip T16
+	-serverTime 1482872725
+	-serverTimeZoneOffset 21600
+	-serverTimeDSTValue 1
+	-startTime 0
+	-elapsedBuildTime 0
+};
+set machineStatus(cassette) {
+{
+	-name {P430_BLK}
+	-mfgDate {Sun Aug 7 17:27:16 2016}
+	-mfgLot {101275}
+	-initialMatl 56.3
+	-1stUsageDate {Fri Dec 16 09:50:45 2016}
+	-serialNumber {337213871.000000}
+	-remainingMatl 12.7353
+	-status Loaded
+}
+{
+	-name {SR30}
+	-mfgDate {Tue May 31 07:44:57 2016}
+	-mfgLot {100857}
+	-initialMatl 56.3
+	-1stUsageDate {Fri Dec 16 09:50:45 2016}
+	-serialNumber {328048074.000000}
+	-remainingMatl 27.3361
+	-status Loaded
+}
+};
+set machineStatus(mariner) {
+	-internalState sttIdle
+	-homeState {}
+	-runTimeOdometer 66707885
+	-buildTimeOdometer 20353524
+	-tipTimeOdometer 5386103
+	-currentCurve -3
+	-currentXPosition 10
+	-currentYPosition 12
+	-currentZPosition 9
+	-modelInHead true
+	-supportInHead true
+	-modelInHead2 false
+	-supportInHead2 false
+	-xyHomed true
+	-zHomed true
+	-modelLatched true
+	-modelLatched2 false
+	-modelMotorEn false
+	-modelCartMotorRunning false
+	-supportLatched true
+	-supportLatched2 false
+	-supportMotorEn false
+	-supportCartMotorRunning false
+	-lightsOn true
+	-doorLatch false
+	-xyReady false
+	-doorOpen false
+	-xHome false
+	-xLimit false
+	-yHome false
+	-yLimit false
+	-zHome false
+	-zLimit false
+	-zJam false
+	-zFoam true
+	-tipOffset {0.8087 0.0043}
+	-zOffset -0.06881
+	-zClearance 0.002765
+	-hysteresis {0 0 0 0}
+	-partCalibration {7.5204 7.522 7.526 7.5247 10.6425 10.6365}
+	-xCorrection 0
+	-productSerialNumber {P16127}
+	-productVersion 10.4
+	-buildVersion 3978
+	-firmwareVersion 3978
+	-PLDVersion 8332
+	-xScale 5418
+	-yScale 13545
+	-zScale 64000
+	-cassette1Type {P430_BLK}
+	-cassette2Type {SR30}
+	-buildHeadTemp 310
+	-buildSuptTemp 310
+	-buildChamberTemp 78
+	-standbyHeadTemp 100
+	-standbySuptTemp 100
+	-standbyChamberTemp 72
+	-mainFlowScale 1
+	-mainFlowAdj 0
+	-rbCountScale 1
+	-rbCountAdj 0
+	-rbTimeScale 1
+	-rbTimeAdj 0
+	-pdTimeScale 1
+	-pdTimeAdj 0
+	-headDelayScale 1
+	-headDelayAdj 0
+	-rollbackFactor 0.4
+	-scMainFlowScale 1
+	-scMainFlowAdj 0
+	-scRbCountScale 1
+	-scRbCountAdj 0
+	-scRbTimeScale 1
+	-scRbTimeAdj 0
+	-scPdTimeScale 1
+	-scPdTimeAdj 0
+	-headHeater_pwm 0
+	-suptHeater_pwm 0
+	-chamberHeater true
+};
+
+set machineStatus(currentJob) {
+	-position {0}
+	-jobName {}
+	-jobId 0
+	-owner {}
+	-submitTime 0
+	-estimatedBuildTime 0
+	-startTime 0
+	-endTime 0
+	-buildTime 0
+	-completionStatus {}
+	-partMatlName {}
+	-supportMatlName {}
+	-partTotalMatl 0
+	-supportTotalMatl 0
+	-partConsumed 0
+	-supportConsumed 0
+	-partTip T14
+	-supportTip T16
+	-totalLayers 0
+	-currentLayer 0
+	-partMinX 0
+	-partMinY 0
+	-partMinZ 0
+	-partMaxX 0
+	-partMaxY 0
+	-partMaxZ 0
+	-comment {}
+	-producer {}
+	-pack {}
+};
+
+set machineStatus(previousJob) {
+	-position {-1}
+	-jobName {}
+	-jobId 0
+	-owner {}
+	-submitTime 0
+	-estimatedBuildTime 0
+	-startTime 0
+	-endTime 0
+	-buildTime 0
+	-completionStatus {}
+	-partMatlName {}
+	-supportMatlName {}
+	-partTotalMatl 0
+	-supportTotalMatl 0
+	-partConsumed 0
+	-supportConsumed 0
+	-partTip T14
+	-supportTip T16
+	-totalLayers 0
+	-currentLayer 0
+	-partMinX 0
+	-partMinY 0
+	-partMinZ 0
+	-partMaxX 0
+	-partMaxY 0
+	-partMaxZ 0
+	-comment {}
+	-producer {}
+	-pack {}
+};
+
+set machineStatus(queue) {
+	};
